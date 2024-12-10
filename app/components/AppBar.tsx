@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const [coloredHeader, setColordHeader] = useState(true);
+  const [coloredHeader, setColordHeader] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
