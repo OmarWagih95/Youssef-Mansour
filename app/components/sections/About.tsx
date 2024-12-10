@@ -20,7 +20,7 @@ const About = () => {
   className='relative w-[85vw] h-[50vh] sm:w-[75vw] sm:h-[50vh] md:h-[80vh] md:w-[45vw]'>
     <Image 
       style={{aspectRatio:7/9}}
-    className="object-contain" fill alt="YossefMansour" src="/about1.JPG" />
+    className="object-contain" fill alt="YossefMansour" src="/about2.JPG" />
   </div>
   <div className='md:w-[45vw] h-full flex-col justify-start items-center'>
     <h1 className={`${quoteStyle} text-darkGrey`}>Hello, I&apos;m Youssef mansour</h1>
