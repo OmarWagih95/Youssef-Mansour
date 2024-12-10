@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+.text-stroke {
+  -webkit-text-stroke: 1px white; /* Adjust the stroke width and color here */
+}
 
 body {
   color: var(--foreground);
