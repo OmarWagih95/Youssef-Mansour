@@ -4,7 +4,7 @@ const NavMenu=[
      {text:"About",link:"/#About"},
      {text:"Portfolio",link:"/pages/Events"},
      {text:"Videos",link:"/pages/Videos"},
-    {text:"Book Now",link:"/pages/Contact-Us"},
+    {text:"Book Now",link:"/pages/contact-us"},
 
 ]
 
