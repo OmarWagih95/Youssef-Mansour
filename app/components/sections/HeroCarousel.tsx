@@ -3,43 +3,81 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 const HeroCarousel = () => {
-  useEffect(() => {
-const interval = setInterval(() => {
-    setActiveIndex((prev) => prev === (images.length - 1)? 0 : prev + 1);
-}
-    
-, 5000);
-console.log(activeIndex);
-console.log('3000')
-
-    return () => clearInterval(interval);
-  }, []);
-    
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // Array of images to display in the carousel
+  // Array of images for mobile and desktop
   const images = [
-      "/img1.jpg",
-      "/img2.jpg",
-      "/img3.jpg",
-      "/img4.jpg",
-   
+    "/HeroMedia/1.JPG",
+    "/HeroMedia/2.JPG",
+    "/HeroMedia/3.JPG",
+    "/HeroMedia/4.JPG",
+    "/HeroMedia/5.JPG",
+    "/HeroMedia/6.JPG",
+    "/HeroMedia/7.JPG",
+    "/HeroMedia/8.JPG",
   ];
+  const imagesDesk = [
+    "/HeroDesk/Desk1.JPG",
+    "/HeroDesk/Desk2.JPG",
+    "/HeroDesk/Desk3.JPG",
+    "/HeroDesk/Desk4.JPG",
+    "/HeroMedia/5.JPG",
+    "/HeroDesk/Desk6.JPG",
+    "/HeroDesk/Desk7.JPG",
+    "/HeroDesk/Desk8.JPG",
+
+  ];
+
+  // Dynamically set images based on screen width
+  const imageList = isMobile ? images : imagesDesk;
+
+  useEffect(() => {
+    // Function to check the screen width
+    const checkScreenSize = () => {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true); // If the screen width is <= 768px, it's mobile
+      } else {
+        setIsMobile(false); // Otherwise, it's desktop
+      }
+    };
+
+    // Initial check when the component mounts
+    checkScreenSize();
+
+    // Event listener for window resize
+    window.addEventListener('resize', checkScreenSize);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Set up the carousel interval
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => prev === (imageList.length - 1) ? 0 : prev + 1);
+    }, 5000);
+
+    // Cleanup the interval on unmount
+    return () => clearInterval(interval);
+  }, [imageList]);
 
   // Function to handle moving to the next slide
   const nextSlide = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setActiveIndex((prevIndex) => (prevIndex + 1) % imageList.length);
   };
 
   // Function to handle moving to the previous slide
   const prevSlide = () => {
-    setActiveIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setActiveIndex((prevIndex) => (prevIndex - 1 + imageList.length) % imageList.length);
   };
 
   return (
     <div id="default-carousel" className="relative w-full h-[60vh] md:h-screen" data-carousel="slide">
-      <div className="relative  overflow-hidden  h-full">
-        {images.map((src, index) => (
+      <div className="relative overflow-hidden h-full">
+        {imageList.map((src, index) => (
           <div
             key={index}
             className={`absolute h-[60vh] md:h-screen inset-0 transition-opacity duration-700 ease-in-out ${
@@ -59,7 +97,7 @@ console.log('3000')
 
       {/* Carousel navigation dots */}
       <div className="absolute z-30 flex space-x-3 bottom-5 left-1/2 transform -translate-x-1/2">
-        {images.map((_, index) => (
+        {imageList.map((_, index) => (
           <button
             key={index}
             type="button"
@@ -81,7 +119,7 @@ console.log('3000')
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
           </svg>
         </span>
-      </button> 
+      </button>
 
       {/* Next Button */}
       <button
