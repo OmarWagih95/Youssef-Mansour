@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 // import { useForm } from 'react-hook-form';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 // import { z } from 'zod';
 
@@ -108,24 +108,24 @@ Have questions? Want to discuss your event ideas? Reach out to us today, and let
 
                     <ul className="flex mt-12 space-x-4">
                         <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <Link target='#' href="https://www.instagram.com/productionlabeg?igsh=MTRzbDZ3c3VkNDNoOQ%3D%3D" className="hover:text-secondary hover:border-secondary ">
+                        <Link target='#' href="https://www.instagram.com/youssef.mansour.ph/?igsh=bjkxaGViMGdjNWc1" className="hover:text-secondary hover:border-secondary ">
             <FaInstagram className='text-white text-[20px]' />
             </Link>   
                         </li>
                         <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <Link target='#' href="https://www.facebook.com/profile.php?id=61567127651491&mibextid=LQQJ4d&rdid=1sbLpyOnTc9uirqS&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1EgtpxM65brR5N8m%2F%3Fmibextid%3DLQQJ4d" className="hover:text-secondary   py-1 ">
+                        <Link target='#' href="https://www.facebook.com/share/ssLHqGd71rt1T38v/?mibextid=LQQJ4d" className="hover:text-secondary   py-1 ">
           <FaFacebookF className='text-white text-[20px]' />
 
             </Link>     
                         </li>
-                        <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        {/* <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <Link target='#' href="https://www.linkedin.com/company/productionlabeg/">
           <FaLinkedin className='text-white text-[20px]' />
 
-            </Link> 
-                        </li>
+            </Link>  
+                        </li> */}
                         <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <Link target='#' href="https://www.tiktok.com/@itsproductionlabeg?_t=8qoGS4hpnNQ&_r=1" className="hover:text-secondary hover:border-secondary  py-1 ">
+                        <Link target='#' href="https://www.tiktok.com/@youssef.mansour127?_t=8s8HQVHXZM0&_r=1" className="hover:text-secondary hover:border-secondary  py-1 ">
             <FaTiktok className='text-white text-[20px]' />
             </Link>  
                         </li>
@@ -156,7 +156,7 @@ Have questions? Want to discuss your event ideas? Reach out to us today, and let
                        
                             className="text-white bg-primary hover:bg-secondary tracking-wide rounded-lg text-sm px-4 py-3 flex items-center justify-center w-full !mt-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' className="mr-2" viewBox="0 0 548.244 548.244">
-                                <path fillRule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
+                                <path fillRule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"  data-original="#000000" />
                             </svg>
                             Send Message
                         </button>

@@ -2,8 +2,8 @@ import { Event } from "./interfaces/interfaces"
 const NavMenu=[
      //     {text:"Portfolio",link:"/"},
      {text:"About",link:"/#About"},
-     {text:"Portfolio",link:"/pages/Events"},
-     {text:"Videos",link:"/pages/Videos"},
+     {text:"Portfolio",link:"/pages/portfolio"},
+     {text:"Videos",link:"/pages/videos"},
     {text:"Book Now",link:"/pages/contact-us"},
 
 ]
