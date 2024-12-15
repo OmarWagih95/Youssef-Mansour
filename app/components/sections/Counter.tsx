@@ -13,7 +13,7 @@ import { MdGroups } from "react-icons/md";
 
 const Counter = () => {
     const counters = [
-        {text:'YEARS OF EXPERIENCE',cs:0,ce:9 ,icon:<FaEarthAfrica />,duration:7},
+        {text:'YEARS OF EXPERIENCE',cs:0,ce:15 ,icon:<FaEarthAfrica />,duration:7},
         {text:'EVENT',cs:40,ce:253,icon:<MdEventAvailable />,duration:8},
         // {text:'NUMBER OF EVENTS',cs:40,ce:100,icon:<FaMartiniGlassCitrus />,duration:10},
         {text:'PROFESSIONALS',cs:0,ce:100,icon:<MdGroups />
