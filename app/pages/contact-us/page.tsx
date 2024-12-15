@@ -84,7 +84,7 @@ Have questions? Want to discuss your event ideas? Reach out to us today, and let
                                     data-original="#000000" />
                             </svg>
                             <a href="javascript:void(0)" className="text-white text-sm ml-4">
-                                yousftitio39@gmail.com
+                                yousftito39@gmail.com
                             </a>
                         </li>
                         {/* <li className="flex items-center">
