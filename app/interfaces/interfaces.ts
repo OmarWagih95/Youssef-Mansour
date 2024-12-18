@@ -11,3 +11,9 @@ export interface Event {
     src: string;
     mediaType: MediaType
   }
+
+  export interface picture {path:string
+    style:string,
+    position:string
+  
+  }

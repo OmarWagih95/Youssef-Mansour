@@ -71,7 +71,7 @@ const ContactUs = () => {
             <div className="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 ">
                 <div>
                     <h1 className="text-4xl font-bold text-white">Get in Touch</h1>
-                    <p className="text-sm text-gray-100 mt-4 leading-relaxed">At Production Lab, we’re passionate about creating unforgettable events that leave lasting impressions. Whether you’re planning a corporate gathering, a wedding, or a special celebration, we’re here to make your vision a reality.
+                    <p className="text-sm text-gray-100 mt-4 leading-relaxed"> we’re passionate about creating unforgettable events that leave lasting impressions. Whether you’re planning a corporate gathering, a wedding, or a special celebration, we’re here to make your vision a reality.
 
 Have questions? Want to discuss your event ideas? Reach out to us today, and let’s start planning something extraordinary together!</p>
 

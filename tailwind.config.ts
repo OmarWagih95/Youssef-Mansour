@@ -12,7 +12,8 @@ export default {
         bg1:'url(/bg1.png)',
         bgGray:'url(/bgtry.png)',
         saveDesktop:'url(/save1.jpg)',
-        saveMob:'url(/save2.jpg)'
+        saveMob:'url(/save2.jpg)',
+        portfolio:'url(/portfolio/retro5.jpg)'
 
       },
     extend: {

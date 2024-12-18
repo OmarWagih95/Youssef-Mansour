@@ -1,4 +1,5 @@
-import { Event } from "./interfaces/interfaces"
+import { Event, picture } from "./interfaces/interfaces"
+
 const NavMenu=[
      //     {text:"Portfolio",link:"/"},
      {text:"About",link:"/#About"},
@@ -518,8 +519,31 @@ const events :Event[] =[
                     ]},
 
 ]
+const weddings:picture[] =[
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297133/2020_05_10_19_18_IMG_9822_z3mp3d.jpg',style:'w-[22vw] h-[200px] sm:h-[300px] lg:h-[500px] ',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297216/2020_05_10_19_27_IMG_9823_z5ab30.jpg',style:'w-[40vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'top'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297213/2020_05_10_20_41_IMG_9978_agqhtl.jpg',style:'w-[28vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297176/2020_05_10_20_09_IMG_9979_vrjmmk.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297159/2020_05_10_19_37_IMG_9825_qqnglu.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297217/2020_05_10_19_42_IMG_9826_axwmoe.jpg',style:'w-[50vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     //   
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297131/2020_07_12_21_42_IMG_9976_yd0wce.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297148/2020_07_12_21_45_IMG_9975_xk860h.jpg',style:'w-[40vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297114/2020_07_12_21_38_IMG_9977_t0117v.jpg',style:'w-[30vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1733926886/cld-sample-2.jpg',style:'w-[30vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
 
-const constants={NavMenu:NavMenu,events:events
+
+
+
+]
+const casuals:picture[] =[
+
+
+
+]
+const sessions =[weddings,casuals]
+ const constants={NavMenu:NavMenu,events:events,weddings:weddings,sessions:sessions
 }
 
 export default constants;
