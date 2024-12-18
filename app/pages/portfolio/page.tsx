@@ -49,6 +49,7 @@ const PortfolioPage = () => {
           )}
         </div>
       </div>
+      {/* {lightBox && <LightBox setIndex={setIndex} activeTab={activeTab} index={index} setLightBox={setLightBox}/>} */}
       {lightBox && <LightBox setIndex={setIndex} activeTab={activeTab} index={index} setLightBox={setLightBox}/>}
     </div>
   )

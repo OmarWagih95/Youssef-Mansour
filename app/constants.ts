@@ -531,7 +531,6 @@ const weddings:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297131/2020_07_12_21_42_IMG_9976_yd0wce.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297148/2020_07_12_21_45_IMG_9975_xk860h.jpg',style:'w-[40vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734297114/2020_07_12_21_38_IMG_9977_t0117v.jpg',style:'w-[30vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
-     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1733926886/cld-sample-2.jpg',style:'w-[30vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
 
 
 
