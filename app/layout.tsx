@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
            <head>
-      <title>YMPH</title>
+      <title>YM</title>
   {/* <title>{metadata.title ?? "Default Title"}</title> */}
   {/* <meta  name="description" content={metadata.description ?? "Default description"} /> */}
 </head>

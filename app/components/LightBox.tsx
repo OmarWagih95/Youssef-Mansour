@@ -6,7 +6,10 @@ import { IoClose } from 'react-icons/io5';
 import { useSwipeable } from 'react-swipeable';
 
 const LightBox = ({ setLightBox, activeTab, index,setIndex }: { setIndex:React.Dispatch<React.SetStateAction<number>>,setLightBox: React.Dispatch<React.SetStateAction<boolean>>, activeTab: number, index: number }) => {
- const handleIndex=(index:number,opr:string)=>{
+  const loaderProp =({ src}:{src:string} ) => {
+    return src;
+}
+  const handleIndex=(index:number,opr:string)=>{
    if (opr === 'min'){
        
        if(index>0 && opr === 'min'){
@@ -50,7 +53,7 @@ const handlers = useSwipeable({
 </span>
         <span
         onClick={()=>handleIndex(index+1,'plus')}
-        className='absolute z-50 rounded-full flex justify-center items-center w-10 xl:w-14 xl:h-14 h-10 top-[49vh] right-[2vw] hover:cursor-pointer md:bg-gray-700/30'><FaArrowRight />
+        className='absolute z-50 rounded-full flex justify-center items-center w-10 xl:w-14 xl:h-14 h-10 top-[49vh] right-[1vw] md:right-[2vw] hover:cursor-pointer text-white md:text-white/50 hover:text-white hover:bg-gray-700/50 md:bg-gray-700/30'><FaArrowRight />
 </span>
         <span
         onClick={()=>setLightBox(false)}
@@ -59,6 +62,7 @@ const handlers = useSwipeable({
 
 </span>
   <Image
+  loader={loaderProp}
     src={constants.sessions[activeTab][index].path}
     alt=""
     fill

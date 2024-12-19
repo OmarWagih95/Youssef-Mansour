@@ -537,11 +537,12 @@ const weddings:picture[] =[
 
 ]
 const casuals:picture[] =[
-
-
-
+  
 ]
-const sessions =[weddings,casuals]
+const couples:picture[] =[]
+const fashion:picture[] =[]
+
+const sessions =[weddings,casuals,couples,fashion]
  const constants={NavMenu:NavMenu,events:events,weddings:weddings,sessions:sessions
 }
 

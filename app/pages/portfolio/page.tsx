@@ -17,6 +17,8 @@ const PortfolioPage = () => {
   const portfolioTabs =[
     {title:'Weddings',value:0},
     {title:'Casual',value:1},
+    {title:'Couples',value:2},
+    {title:'Fashion',value:3},
   
   ]
   return (
