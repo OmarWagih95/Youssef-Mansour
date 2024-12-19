@@ -1,6 +1,5 @@
 import About from "./components/sections/About";
 import Counter from "./components/sections/Counter";
-import Footer from "./components/sections/Footer";
 import HeroCarousel from "./components/sections/HeroCarousel";
 import SaveYourDate from "./components/sections/SaveYourDate";
 import SaveYourMemories from "./components/sections/SaveYourMemories";
@@ -16,7 +15,6 @@ export default function Home() {
 <SaveYourMemories/>
 <SaveYourDate/>
 {/* <LetsWorkTogether/> */}
-<Footer/>
 </div>
   );
 }

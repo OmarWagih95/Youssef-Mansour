@@ -45,10 +45,10 @@ const Header = () => {
         isVisible ? 'translate-y-0' : '-translate-y-full'
       } ${coloredHeader?'bg-primary':'bg-transparent'}`}
     >
-      <div className="flex justify-between items-center px-4 md:px-8 py-2 md:py-6 h-16">
+      <div className="flex justify-between items-center px-2 md:px-8 py-2 md:py-6 h-16">
         <div className="flex items-center justify-center h-full">
           <Link href={'/'}>
-            <div className="relative flex justify-center items-center gap-1 transition-all ml-4 duration-300 ">
+            <div className="relative flex justify-center items-center gap-1 transition-all  duration-300 ">
               <Image alt='video' width={4} height={4} className='w-3 h-3' src={'/giphy.gif'}></Image><h1>Youssef Mansour</h1>
               {/* <Image fill src="/logoPetroli.png" alt="logo" /> */}
             </div>

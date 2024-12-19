@@ -2,6 +2,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import AppBar from "./components/AppBar";
+import Footer from "./components/sections/Footer";
 
 export const playfair =localFont({
   src: "./fonts/PlayfairDisplay-VariableFont_wght.ttf",
@@ -50,6 +51,8 @@ export default function RootLayout({
       >
         <AppBar/>
         {children}
+        <Footer/>
+
       </body>
     </html>
   );
