@@ -144,6 +144,17 @@ const ContactUs = () => {
                         <Link target='#' href="https://www.tiktok.com/@youssef.mansour127?_t=8s8HQVHXZM0&_r=1" className="hover:text-secondary hover:border-secondary  py-1 ">
             <FaTiktok className='text-white text-[20px]' />
             </Link>  
+            
+                        </li>
+                        <li className="bg-primary  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <Link
+  target="#"
+  href="https://api.whatsapp.com/send?phone=201112221404"
+  className="text-white hover:text-gray-900"
+>
+ <IoLogoWhatsapp   className='hover:text-white text-[20px]'/>
+ </Link>
+            
                         </li>
                     </ul>
                 </div>

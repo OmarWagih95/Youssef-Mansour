@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaTiktok } from "react-icons/fa";
+import { IoLogoWhatsapp } from 'react-icons/io';
 
 
 const Footer = () => {
@@ -37,6 +38,13 @@ const Footer = () => {
 >
 <FaTiktok />
 </Link>
+        <Link
+  target="#"
+  href="https://api.whatsapp.com/send?phone=201112221404"
+  className="text-white hover:text-gray-900"
+>
+ <IoLogoWhatsapp  className='text-lg'/>
+ </Link>
  
 
 
