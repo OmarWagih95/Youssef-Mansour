@@ -537,7 +537,19 @@ const weddings:picture[] =[
 
 ]
 const casuals:picture[] =[
-  
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628798/2022_07_13_18_18_IMG_9916_i6nrfv.jpg',style:'w-[22vw] h-[200px] sm:h-[300px] lg:h-[500px] ',position:'right'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628798/2022_07_13_18_18_IMG_9974_fyxoud.jpg',style:'w-[40vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628798/2022_07_13_18_18_IMG_9918_mb3clc.jpg',style:'w-[28vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628826/2022_02_14_12_50_IMG_9936_q3z7ju.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628827/2022_02_14_12_48_IMG_9937_blrbte.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628819/2022_02_14_07_21_IMG_9940_bcnacm.jpg',style:'w-[50vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628824/2022_02_14_13_03_IMG_9935_fdevpm.jpg',style:'w-[20vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628821/2022_02_14_13_05_IMG_9934_jeaprp.jpg',style:'w-[25vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628819/2022_02_14_07_21_IMG_9939_zruhaj.jpg',style:'w-[25vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628818/2022_02_14_07_21_IMG_9938_jaagll.jpg',style:'w-[20vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+
 ]
 const couples:picture[] =[]
 const fashion:picture[] =[]

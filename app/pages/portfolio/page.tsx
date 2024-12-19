@@ -7,9 +7,9 @@ import Image from 'next/image'
 import LightBox from '@/app/components/LightBox'
 
 const PortfolioPage = () => {
-  const loaderProp =({ src}:{src:string} ) => {
-    return src;
-}
+//   const loaderProp =({ src}:{src:string} ) => {
+//     return src;
+// }
   const [activeTab,setActiveTab]=useState(0)
   const [index,setIndex]=useState(0)
   const [lightBox,setLightBox]=useState(false)
@@ -45,7 +45,7 @@ const PortfolioPage = () => {
               }}
               objectFit='cover'
               objectPosition={pic.position}
-              loader={loaderProp}
+              // loader={loaderProp}
              fill   alt='' src={pic.path}></Image>
           </div>
           )}
