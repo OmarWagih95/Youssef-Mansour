@@ -6,9 +6,9 @@ import { IoClose } from 'react-icons/io5';
 import { useSwipeable } from 'react-swipeable';
 
 const LightBox = ({ setLightBox, activeTab, index,setIndex }: { setIndex:React.Dispatch<React.SetStateAction<number>>,setLightBox: React.Dispatch<React.SetStateAction<boolean>>, activeTab: number, index: number }) => {
-  const loaderProp =({ src}:{src:string} ) => {
-    return src;
-}
+//   const loaderProp =({ src}:{src:string} ) => {
+//     return src;
+// }
   const handleIndex=(index:number,opr:string)=>{
    if (opr === 'min'){
        
@@ -62,7 +62,7 @@ const handlers = useSwipeable({
 
 </span>
   <Image
-  loader={loaderProp}
+  // loader={loaderProp}
     src={constants.sessions[activeTab][index].path}
     alt=""
     fill
