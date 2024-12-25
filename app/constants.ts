@@ -545,13 +545,16 @@ const weddings:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985687/2020_11_07_17_03_IMG_9961_q1fndj.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985676/2020_11_07_17_11_IMG_9958_kib78b.jpg',style:'w-[30vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985680/2020_11_07_17_07_IMG_9959_x8hoju.jpg',style:'w-[40vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
-
+     
      
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985672/2020_11_07_17_05_IMG_9960_qsmi13.jpg',style:'w-[20vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985682/2020_11_07_17_16_IMG_9957_ekgc7p.jpg',style:'w-[25vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985684/2020_11_07_17_17_IMG_9955_imuk7e.jpg',style:'w-[25vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734985683/2020_11_07_17_17_IMG_9956_idl6lm.jpg',style:'w-[20vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
-
+     
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735120312/2020_08_30_20_26_IMG_9970_okeaed.jpg',style:'w-[25vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735120312/2020_08_30_20_28_IMG_9985_kzqamc.jpg',style:'w-[30vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735120311/2020_08_30_20_20_IMG_9984_pso0mf.jpg',style:'w-[35vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
 ]
 const casuals:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734628798/2022_07_13_18_18_IMG_9916_i6nrfv.jpg',style:'w-[22vw] h-[200px] sm:h-[300px] lg:h-[500px] ',position:'right'},
@@ -572,8 +575,8 @@ const couples:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720366/2023_05_07_19_27_IMG_9887_f7htau.jpg',style:'w-[22vw] h-[200px] sm:h-[300px] lg:h-[500px] ',position:'right'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720365/2023_05_07_19_41_IMG_9883_sbtuiu.jpg',style:'w-[40vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720364/2023_05_07_19_32_IMG_9886_ihxwxr.jpg',style:'w-[28vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
-
-
+     
+     
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720340/2023_05_07_19_42_IMG_9881_smjfep.jpg',style:'w-[20vw] h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720360/2023_05_07_19_02_IMG_9888_j2ulvy.jpg',style:'w-[15vw] h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720358/2023_05_07_19_43_IMG_9879_qriiwa.jpg',style:'w-[20vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
@@ -584,6 +587,13 @@ const couples:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720332/2023_05_07_19_33_IMG_9885_bj37jp.jpg',style:'w-[25vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720332/2023_05_07_19_58_IMG_9877_arhgkn.jpg',style:'w-[25vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1734720335/2023_05_07_19_43_IMG_9880_isyaf7.jpg',style:'w-[20vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735118624/2022_11_05_17_07_IMG_9910_rpehcf.jpg',style:'w-[45vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735118624/2022_11_05_17_13_IMG_9898_c6mry0.jpg',style:'w-[45vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'bottom'},
+     
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735118627/2022_11_05_16_58_IMG_9904_qjaqkh.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735118627/2022_11_05_17_05_IMG_9902_jfbygh.jpg',style:'w-[20vw] h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1735118625/2022_11_05_17_05_IMG_9920_ccr5kh.jpg',style:'w-[50vw]  h-[200px] sm:h-[300px] lg:h-[500px]',position:'center'},
 
 ]
 const fashion:picture[] =[]
