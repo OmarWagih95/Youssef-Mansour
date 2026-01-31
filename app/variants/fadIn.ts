@@ -9,10 +9,10 @@ export const fadeIn =({direction,delay}:
             opacity:0,
             x:direction==='left'?40:direction==='right'?-40 :0,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:2,
                 delay:delay,
-                ease:[0.25,0.6,0.3,0.8]
+                ease:[0.25,0.6,0.3,0.8] as [number, number, number, number]
             }
         },
         start:{
@@ -20,10 +20,10 @@ export const fadeIn =({direction,delay}:
             opacity:1,
             x:direction==='left'?80:direction==='right'?-80 :0,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:0,
                 delay:delay,
-                ease:[0.25,0.6,0.3,0.8]
+                ease:[0.25,0.6,0.3,0.8] as [number, number, number, number]
             }
         },
 
@@ -32,10 +32,10 @@ export const fadeIn =({direction,delay}:
             x:0,
             opacity:1,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:1.2,
                 delay:delay,
-                ease:[0.25,0.25,0.25,0.75]
+                ease:[0.25,0.25,0.25,0.75] as [number, number, number, number]
             }
         }
 
@@ -52,10 +52,10 @@ export const fadeInMenu =({direction,delay}:
             opacity:0.9,
             x:direction==='left'?40:direction==='right'?-200 :0,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:1,
                 delay:delay,
-                ease:[0.25,0.6,0.3,0.8]
+                ease:[0.25,0.6,0.3,0.8] as [number, number, number, number]
             }
         },
         start:{
@@ -63,10 +63,10 @@ export const fadeInMenu =({direction,delay}:
             opacity:1,
             x:direction==='left'?80:direction==='right'?-80 :0,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:0,
                 delay:delay,
-                ease:[0.25,0.6,0.3,0.8]
+                ease:[0.25,0.6,0.3,0.8] as [number, number, number, number]
             }
         },
 
@@ -75,10 +75,10 @@ export const fadeInMenu =({direction,delay}:
             x:0,
             opacity:1,
             transition:{
-                type:'tween',
+                type:'tween' as const,
                 duration:1.2,
                 delay:delay,
-                ease:[0.25,0.25,0.25,0.75]
+                ease:[0.25,0.25,0.25,0.75] as [number, number, number, number]
             }
         }
 
