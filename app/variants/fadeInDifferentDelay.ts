@@ -10,7 +10,7 @@ animate:(custom:number)=>({
 
         delay: delay * custom/2,
         duration:duration,
-        ease:[0.25,0.25,0.25,0.75]
+        ease:[0.25,0.25,0.25,0.75] as [number, number, number, number]
 
         
     }
