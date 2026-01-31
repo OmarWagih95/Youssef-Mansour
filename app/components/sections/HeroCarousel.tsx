@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
 const HeroCarousel = () => {
@@ -8,6 +9,7 @@ const HeroCarousel = () => {
 
   // Array of images for mobile and desktop
   const images = [
+    "/HeroDesk/hero.jpeg",
     "/HeroMedia/1.JPG",
     "/HeroMedia/2.JPG",
     "/HeroMedia/3.JPG",
@@ -26,7 +28,7 @@ const HeroCarousel = () => {
     "/HeroDesk/Desk6.JPG",
     "/HeroDesk/Desk7.JPG",
     "/HeroDesk/Desk8.JPG",
-
+    
   ];
 
   // Dynamically set images based on screen width
@@ -106,6 +108,15 @@ const HeroCarousel = () => {
             onClick={() => setActiveIndex(index)}
           />
         ))}
+      </div>
+
+      {/* Book Now Button - Centered */}
+      <div className="absolute z-30 top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <Link href="/pages/contact-us">
+          <button className="md:px-8 md:py-4 px-4 py-2 bg-primary text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-primary/90 hover:scale-105 transition-all duration-300 ease-in-out">
+            Book Now
+          </button>
+        </Link>
       </div>
 
       {/* Previous Button */}

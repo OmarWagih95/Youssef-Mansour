@@ -658,6 +658,20 @@ const weddings:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1736192135/2023_05_10_16_08_IMG_9873_ugpkgg.jpg',style:'w-[22vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1736192133/2023_05_10_16_14_IMG_9870_yvwmck.jpg',style:'w-[23vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
 
+               {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769848892/WhatsApp_Image_2026-01-28_at_4.35.14_PM_1_qcs6xk.jpg',style:'w-[20vw] h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
+               {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769848892/WhatsApp_Image_2026-01-28_at_4.35.11_PM_1_vaqwdc.jpg',style:'w-[20vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
+               {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769848892/WhatsApp_Image_2026-01-28_at_4.35.11_PM_rllvqd.jpg',style:'w-[15vw] h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769848892/WhatsApp_Image_2026-01-28_at_4.35.12_PM_2_ae0deq.jpg',style:'w-[20vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769848892/WhatsApp_Image_2026-01-28_at_4.35.13_PM_aepmdg.jpg',style:'w-[15vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
+
+          {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769849323/WhatsApp_Image_2026-01-28_at_4.34.57_PM_3_fuuxpr.jpg',style:'w-[55vw]  h-[270px] sm:h-[350px] lg:h-[500px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769849328/WhatsApp_Image_2026-01-28_at_4.34.54_PM_2_gcyxnw.jpg',style:'w-[35vw]  h-[270px] sm:h-[350px] lg:h-[500px]',position:'center'},
+
+          {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769849323/WhatsApp_Image_2026-01-28_at_4.34.42_PM_1_hnzokp.jpg',style:'w-[25vw] h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769849323/WhatsApp_Image_2026-01-28_at_4.35.10_PM_itpqem.jpg',style:'w-[40vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+     {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1769849323/WhatsApp_Image_2026-01-28_at_4.34.30_PM_vtjjb2.jpg',style:'w-[25vw]  h-[170px] sm:h-[250px] lg:h-[400px]',position:'center'},
+
+
 
 ]
 const casuals:picture[] =[
@@ -730,6 +744,8 @@ const couples:picture[] =[
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1736169905/IMG_4904_jsq9k5.jpg',style:'w-[25vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1736169910/IMG_4913_antvyl.jpg',style:'w-[15vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'center'},
      {path:'https://res.cloudinary.com/dqynzk9h8/image/upload/v1736169909/IMG_4912_kdkdbv.jpg',style:'w-[20vw]  h-[140px] sm:h-[220px] lg:h-[350px]',position:'top'},
+
+
 
 ]
 const fashion:picture[] =[]

@@ -20,7 +20,7 @@ const ContactUs = () => {
     // setErrors(validation(state))
 
     // }
-    const [message,setMessage]=useState('Are you available on the 17th of January for a wedding?')
+    const [message,setMessage]=useState('Are you available on the 17th of march for a wedding?')
     // const [state,setState]=useState({
     //     name: '',
     //     email: '',
